@@ -1,0 +1,47 @@
+.inputContainer {
+  position: absolute;
+  text-align: right;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.inputInfo {
+  display: inline-block;
+  margin: 20px;
+  width: 1000px;
+}
+.inputInfo > div > div {
+  width: 1100px;
+  text-align: right;
+}
+
+.btnContainer {
+  position: absolute;
+  left: 40%;
+  margin-top: 20px;
+}
+
+/* 검색 row */
+.searchInfo {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+/* radio button row */
+.radioInfo {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+}
+.sexInfo {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: 20px;
+  width: 190px;
+  justify-content: space-around;
+}
+.sexInput {
+  width: 25px;
+  height: 25px;
+}
