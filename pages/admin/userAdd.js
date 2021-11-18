@@ -2,9 +2,9 @@ import React, { useState, useRef } from 'react'
 import axios from 'axios'
 import Head from 'next/head'
 import Link from 'next/link'
-import Top from '../../components/Top'
-import styles from '../../styles/Common.module.css'
-import style from '../../styles/Add.module.css'
+import Top from '/components/Top'
+import styles from '/Common.module.css'
+import style from '/Add.module.css'
 import { Input, Button, Form, Label } from 'semantic-ui-react'
 
 export default function AdminUserAdd(){
