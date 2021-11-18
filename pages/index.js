@@ -13,16 +13,15 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>산업안전 AI관제</title>
         <meta name="description" content="Industrial Safety AI Monitoring" />
         <link rel="icon" href="/favicon.ico" /> 
       </Head>
 
       <div className={styles.main}>
-        <Top title=' : AI통합관제 ' />
+        <Top title=' : AI ' />
         <div>
           <div style={{float: 'left'}} className={styles.floorPlan}>
-            <Image src='/images/backimg.png' alt='GS건설' width={672} height={235} />
+            <Image src='/images/backimg.png' width={672} height={235} />
             <canvas id="myCanvas" width="770" height="430"></canvas>
             <Script src='/js/floorPlan.js' /> 
           </div>
@@ -31,16 +30,16 @@ export default function Home() {
             <AiHar width='50%' height='215px' />
           </div>
           <div className={styles.row}>
-            <AirCondition id='1' title='1층 작업장 공기질' width='50%' height='215px' />
-            <AirCondition id='2' title='2층 작업장 공기질' width='50%' height='215px' />
+            <AirCondition id='1' title='1층 작업' width='50%' height='215px' />
+            <AirCondition id='2' title='2층 작업' width='50%' height='215px' />
           </div>
         </div>
        
         <div className={styles.row}>
-          <WorkerHealth data={{id:'1', username:'김수영', position:'1층', health:'89'}} width='25%' height='215px' />
-          <WorkerHealth data={{id:'2', username:'홍길동', position:'4층', health:'59'}} width='25%' height='215px' />
-          <WorkerHealth data={{id:'3', username:'신정택', position:'2층', health:'67'}} width='25%' height='215px' />
-          <WorkerHealth data={{id:'4', username:'정의훈', position:'3층', health:'82'}} width='25%' height='215px' />
+          <WorkerHealth data={{id:'1', username:'김XX', position:'1층', health:'89'}} width='25%' height='215px' />
+          <WorkerHealth data={{id:'2', username:'홍XX', position:'4층', health:'59'}} width='25%' height='215px' />
+          <WorkerHealth data={{id:'3', username:'신XX', position:'2층', health:'67'}} width='25%' height='215px' />
+          <WorkerHealth data={{id:'4', username:'정XX', position:'3층', health:'82'}} width='25%' height='215px' />
         </div>
        
         <div className={styles.row}>
