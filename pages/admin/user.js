@@ -8,13 +8,12 @@ export default function AdminUser() {
     return (
         <div className={styles.container}>
             <Head>
-                <title>산업안전 AI관제</title>
                 <meta name="description" content="Industrial Safety AI Monitoring" />
                 <link rel="icon" href="/favicon.ico" /> 
             </Head>
 
             <div className={styles.main}>
-                <Top title=' : 관리자설정 ' />
+                <Top title=' : 관리자 ' />
                 <div>
                     <Table celled inverted>
                         <Table.Header>
