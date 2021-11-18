@@ -1,5 +1,4 @@
 function openNav(){
-  console.log('openNave called !!!!!!!');
   document.getElementById("mySidenav").style.width = "180px";
   document.getElementById("main").style.marginLeft = "180px";
 }
