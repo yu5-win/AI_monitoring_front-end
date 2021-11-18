@@ -140,15 +140,15 @@
 
 
     const worker = [
-      { "name": "김수영", "state": "이동", "x": 100, "y": 150, "building": "101b", "floor": "1f" },
-      { "name": "김유승", "state": "멈춤", "x": 0, "y": 0, "building": "104b", "floor": "2f" },
-      { "name": "이승헌", "state": "이동", "x": 100, "y": 200, "building": "103b", "floor": "1f" },
-      { "name": "김연표", "state": "이동", "x": 400, "y": 200, "building": "101b", "floor": "1f" },
-      { "name": "염민호", "state": "멈춤", "x": 0, "y": 0, "building": "101b", "floor": "2f" },
-      { "name": "정의훈", "state": "이동", "x": 0, "y": 0, "building": "105b", "floor": "3f" },
-      { "name": "권예진", "state": "이동", "x": 0, "y": 0, "building": "103b", "floor": "10" },
-      { "name": "이정림", "state": "멈춤", "x": 620, "y": 150, "building": "101b", "floor": "1f" },
-      { "name": "허정훈", "state": "이동", "x": 0, "y": 0, "building": "105b", "floor": "3f" }
+      { "name": "김XX", "state": "이동", "x": 100, "y": 150, "building": "101b", "floor": "1f" },
+      { "name": "김XX", "state": "멈춤", "x": 0, "y": 0, "building": "104b", "floor": "2f" },
+      { "name": "이XX", "state": "이동", "x": 100, "y": 200, "building": "103b", "floor": "1f" },
+      { "name": "김XX", "state": "이동", "x": 400, "y": 200, "building": "101b", "floor": "1f" },
+      { "name": "염XX", "state": "멈춤", "x": 0, "y": 0, "building": "101b", "floor": "2f" },
+      { "name": "정XX", "state": "이동", "x": 0, "y": 0, "building": "105b", "floor": "3f" },
+      { "name": "권XX", "state": "이동", "x": 0, "y": 0, "building": "103b", "floor": "10" },
+      { "name": "이XX", "state": "멈춤", "x": 620, "y": 150, "building": "101b", "floor": "1f" },
+      { "name": "허XX", "state": "이동", "x": 0, "y": 0, "building": "105b", "floor": "3f" }
     ]
     // 근로자 위치 그리기
     for (var i = 0; i < worker.length; i++) {
