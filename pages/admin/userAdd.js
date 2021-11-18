@@ -77,13 +77,12 @@ export default function AdminUserAdd(){
   return(
     <div className={styles.container}>
       <Head>
-        <title>산업안전 AI관제</title>
         <meta name="description" content="Industrial Safety AI Monitoring" />
         <link rel="icon" href="/favicon.ico" /> 
       </Head>
 
       <div className={styles.main}>
-        <Top title=" : 관리자설정" />
+        <Top title=" : 관리자" />
         <div className={style.inputContainer}>
           <Form onSubmit={handleSubmit} size='huge'>
             아이디: 
@@ -105,7 +104,7 @@ export default function AdminUserAdd(){
               <Input
                 fluid
                 name="pw"
-                placeholder="암호를 입력해주세요."
+                placeholder="암호"
                 onChange={onChange}
                 onKeyPress={onKeyPress}
                 error = { pw===''?true:false }
@@ -121,7 +120,7 @@ export default function AdminUserAdd(){
                 fluid
                 name="pwCk"
                 type="password"
-                placeholder="암호를 확인해주세요."
+                placeholder="암호"
                 onChange={pwCkChange}
                 onKeyPress={onKeyPress}
                 error = { pwCk===''?true:false }
@@ -136,7 +135,7 @@ export default function AdminUserAdd(){
               <Input
                 fluid
                 name="name"
-                placeholder="이름를 입력해주세요."
+                placeholder="이름"
                 onChange={onChange}
                 onKeyPress={onKeyPress}
                 error = { name===''?true:false }
@@ -150,7 +149,7 @@ export default function AdminUserAdd(){
               <Input
                 fluid
                 name="email"
-                placeholder="이메일를 입력해주세요."
+                placeholder="이메일"
                 onChange={onChange}
                 onKeyPress={onKeyPress}
                 error = { email===''?true:false }
@@ -164,7 +163,7 @@ export default function AdminUserAdd(){
               <Input
                 fluid
                 name="contact"
-                placeholder="연락처를 입력해주세요."
+                placeholder="연락처"
                 onChange={onChange}
                 onKeyPress={onKeyPress}
                 error = { contact===''?true:false }
