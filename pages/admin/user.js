@@ -1,30 +1,30 @@
 import Head from 'next/head'
 import { Button, Icon, Label, Menu, Table } from 'semantic-ui-react'
-import styles from '../../styles/Common.module.css'
-import Top from '../../components/Top'
+import styles from '/Common.module.css'
+import Top from '/Top'
 import Link from 'next/link'
 
 export default function AdminUser() {
     return (
         <div className={styles.container}>
-            <Head>
-                <meta name="description" content="Industrial Safety AI Monitoring" />
-                <link rel="icon" href="/favicon.ico" /> 
-            </Head>
+          <Head>
+            <meta name="description" content="Industrial Safety AI Monitoring" />
+            <link rel="icon" href="/favicon.ico" /> 
+          </Head>
 
-            <div className={styles.main}>
-                <Top title=' : 관리자 ' />
-                <div>
-                    <Table celled inverted>
-                        <Table.Header>
-                        <Table.Row>
-                            <Table.HeaderCell>No</Table.HeaderCell>
-                            <Table.HeaderCell>아이디</Table.HeaderCell>
-                            <Table.HeaderCell>성명</Table.HeaderCell>
-                            <Table.HeaderCell>생성일</Table.HeaderCell>
-                            <Table.HeaderCell width='two' />
-                        </Table.Row>
-                        </Table.Header>
+          <div className={styles.main}>
+            <Top title=' : 관리자 ' />
+              <div>
+                <Table celled inverted>
+                  <Table.Header>
+                    <Table.Row>
+                      <Table.HeaderCell>No</Table.HeaderCell>
+                      <Table.HeaderCell>아이디</Table.HeaderCell>
+                      <Table.HeaderCell>성명</Table.HeaderCell>
+                      <Table.HeaderCell>생성일</Table.HeaderCell>
+                      <Table.HeaderCell width='two' />
+                     </Table.Row>
+                   </Table.Header>
 
                         <Table.Body>
                         <Table.Row>
@@ -40,12 +40,9 @@ export default function AdminUser() {
                                 <Button icon>
                                     <Icon name='trash' />
                                 </Button>
-                                
                             </Table.Cell>
                         </Table.Row>
-                        
                         </Table.Body>
-
                         <Table.Footer>
                         <Table.Row>
                             <Table.HeaderCell colSpan='5'>
@@ -70,8 +67,6 @@ export default function AdminUser() {
                                 <Icon name='chevron right' />
                                 </Menu.Item>
                             </Menu>
-
-
                             </Table.HeaderCell>
                         </Table.Row>
                         </Table.Footer>
